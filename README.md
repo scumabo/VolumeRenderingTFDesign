@@ -1,17 +1,13 @@
 # TransferFunctionDVR
-This repository implements the methods described in [1] that are 1. Hierarchical Cell-based Feature Similarity Map, 2. Feature Classification, and 3. Feature Visibility for TF Design. Each method relies on the data computed from the previous method. Since the 
+This repository implements the methods described in [1] that are 1. Hierarchical Cell-based Feature Similarity Map, 2. Feature Classification, and 3. Feature Visibility for TF Design.
 
 ## 1. Hierarchical Cell-based Feature Similarity Map (/CellSim)
 Hit "Run" button to execute the shell script "run.sh". By default, both "demo1D" and "demo2D" will be run for all the experimented datasets in [1]. To run just one or the other script, or selected datasets, please comment out corresponding lines in run.sh OR directly type commend in MATLAB.
 
-<<<<<<< HEAD
 ## 2. Feature Classification (/FeatureClassification)
-1. In MATLAB, run "play.m" to display the interactive interface. For example, leave everything as default to run the experiment for the manix dataset; "set # of initial medoids:" to "13" and hit "do clustering".
+1. In MATLAB, run "play.m" to display the interactive interface. For example, leave everything as default to run the experiment for the manix dataset; "set # of initial medoids:" to "13" and hit "do clustering". The similarity table is pre-computed for manix dataset and needs to be computed for another dataset.
 
 2. For 2D classfication, select tooth or bonsai dataset and check the box "2D TF (gradient)". Do clustering similar to Step 1.
-=======
-## Feature Classification (/)
->>>>>>> parent of e7a6792... Added Classification
 
 ## 3. Feature Visibility for TF Design (/FeatureVisOpacityAdj)
 
