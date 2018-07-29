@@ -1,5 +1,5 @@
 # VolumeRenderingTFDesign
-This repository implements the methods described in [1] that are 1. Hierarchical Cell-based Feature Similarity Map, 2. Feature Classification, and 3. Feature Visibility for TF Design.
+This repository implements the methods described in "Ma, B.; Entezari, A.; Volumetric Feature-Based Classification and Visibility Analysis for Transfer Function Design, IEEE Transactions on Visualization and Computer Graphics (TVCG), to appear, 2017" including, 1. Hierarchical Cell-based Feature Similarity Map, 2. Feature Classification, and 3. Feature Visibility for TF Design.
 
 ## 1. Hierarchical Cell-based Feature Similarity Map (/CellSim)
 Hit "Run" button to execute the shell script "run.sh". By default, both "demo1D" and "demo2D" will be run for all the experimented datasets in [1]. To run just one or the other script, or selected datasets, please comment out corresponding lines in run.sh OR directly type commend in MATLAB.
@@ -18,5 +18,3 @@ Hit "Run" button to execute the shell script "run.sh". By default, both "demo1D"
 3. Rebuild Voreen as in Step 1.
 
 4. In Voreen, Open the workspace for the tooth dataset (File -> Open Workspace... -> tooth.vws). For interative opacity adjustment, select the "SingleVolumeRaycaster" in the network graph. In "Properties", open the popup menu for "Classification" and select "Opacity Adjustment".
-
-[1] Ma, B.; Entezari, A.; Volumetric Feature-Based Classification and Visibility Analysis for Transfer Function Design, IEEE Transactions on Visualization and Computer Graphics (TVCG), to appear.
